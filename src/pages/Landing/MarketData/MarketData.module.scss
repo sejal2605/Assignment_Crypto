@@ -1,0 +1,168 @@
+.marketData {
+  padding: 10px 40px;
+}
+
+.sectionTitle {
+  text-align: start;
+  margin-bottom: 40px;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color3);
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: var(--primary-color3);
+  }
+
+  .subheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+
+    .actionsLeft {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      .filterBtn {
+        background-color: #2C3134;
+        border: none;
+        color: #fff;
+        font-weight: 500;
+        padding: 8px 12px;
+        border-radius: 6px;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+
+      .allBtn {
+        background-color: #65558F;
+      }
+    }
+
+    .searchInput {
+      width: 240px;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      background-color: transparent;
+      color: var(--primary-color2);
+
+      &:focus {
+        border-color: #8456ff;
+        box-shadow: 0 0 0 2px rgba(132, 86, 255, 0.2);
+      }
+
+      input {
+        background-color: transparent;
+        color: var(--primary-color3);
+        font-size: 1rem;
+
+        &::placeholder {
+          color: var(--primary-color2);
+          opacity: 1;
+        }
+      }
+
+      .ant-input-prefix {
+        color: var(--primary-color2);
+        margin-right: 6px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.tableContainer {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.seeAllCoins {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color3);
+  text-align: left;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cryptoName {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  img {
+    width: 34px;
+    height: 34px;
+  }
+
+  h4 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--primary-color3);
+  }
+}
+
+.priceChange {
+  font-weight: 600;
+
+  &.positive {
+    color: #16a34a;
+  }
+
+  &.negative {
+    color: #dc2626;
+  }
+}
+
+.sparkline {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tradeBtn {
+  background-color: #A98891;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 16px;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #6b46d7;
+    color: #fff !important;
+  }
+}
+
+:global(.ant-table) {
+  background-color: #FFFFFF05 !important;
+}
+
+:global(.ant-table-thead > tr > th) {
+  background-color: #FFFFFF05 !important;
+  border-bottom: 1px solid #FFFFFF05 !important;
+  font-weight: 600 !important;
+  color: var(--primary-color3) !important;
+}
+
+:global(.ant-table-tbody > tr > td) {
+  background-color: #FFFFFF05 !important;
+  border-bottom: 1px solid #FFFFFF05 !important;
+  color: var(--primary-color3);
+}

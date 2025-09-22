@@ -1,0 +1,94 @@
+.header {
+  background: var(--primary-color1);
+  padding: 24px 28px;
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    img {
+      height: 34px;
+    }
+  }
+
+  .nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: 18px;
+
+    a {
+      color: var(--primary-color2);
+      text-decoration: none;
+      font-weight: 400;
+
+      &:hover {
+        // Uncomment to add hover effect
+        // color: var(--primary-color4);
+      }
+    }
+
+    .dropdown {
+      position: relative;
+
+      .dropbtn {
+        background: none;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        color: var(--primary-color2);
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        gap: 0.3rem;
+
+        &:hover {
+          // Uncomment to add hover effect
+          // color: var(--primary-color4);
+        }
+      }
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--primary-color2);
+
+    img {
+      height: 24px;
+      width: 24px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+
+    .wallet,
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .profile {
+      color: var(--primary-color3);
+    }
+
+    .profile img {
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}

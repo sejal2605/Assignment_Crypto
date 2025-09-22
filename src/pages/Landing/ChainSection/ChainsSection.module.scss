@@ -1,0 +1,141 @@
+.chainsSection {
+  text-align: center;
+  padding: 40px 60px;
+  background-color: transparent;
+}
+
+.logoArcContainer {
+  position: relative;
+  width: 560px;
+  height: 230px;
+  margin: 22% auto 5%;
+
+  .chaincontent {
+    margin-top: 100px;
+
+    h2 {
+      color: var(--primary-color3);
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-top: -15%;
+      margin-bottom: 16px;
+    }
+
+    p {
+      color: var(--primary-color3);
+      font-size: 14px;
+      max-width: 700px;
+      margin: 0 auto 32px;
+      line-height: 1.6;
+    }
+  }
+}
+
+.logoArc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+
+  img {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    transition: transform 0.3s ease;
+  }
+}
+
+/* Positioning icons in a semi-circle */
+.icon1 {
+  transform: rotate(-180deg) translateX(200px) rotate(180deg);
+  top: 80%;
+  left: 0%;
+}
+
+.icon2 {
+  transform: rotate(-140deg) translateX(200px) rotate(140deg);
+  top: 60%;
+  left: 8%;
+}
+
+.icon3 {
+  transform: rotate(-100deg) translateX(200px) rotate(100deg);
+  top: 30%;
+  left: 12%;
+}
+
+.icon4 {
+  transform: rotate(-60deg) translateX(200px) rotate(60deg);
+  top: -15%;
+  left: 60%;
+}
+
+.icon5 {
+  transform: rotate(-40deg) translateX(200px) rotate(40deg);
+  top: 70%;
+  left: 110%;
+}
+
+.icon6 {
+  transform: rotate(-10deg) translateX(200px) rotate(10deg);
+  top: 100%;
+  left: 120%;
+}
+
+.icon7 {
+  transform: rotate(-50deg) translateX(200px) rotate(50deg);
+  top: 20%;
+  left: 90%;
+}
+
+.icon8 {
+  transform: rotate(-90deg) translateX(200px) rotate(90deg);
+  top: 0%;
+  left: 40%;
+}
+
+.downloadBtns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  .cta {
+    padding: 8px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #a98891 0%, #9d4960 100%);
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 16px rgba(88, 16, 40, 0.4);
+    display: flex;
+    justify-content: space-around;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    img {
+      width: 40px;
+    }
+
+    .btncontent {
+      padding: 10px;
+      text-align: start;
+
+      span {
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      p {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0;
+      }
+    }
+  }
+}

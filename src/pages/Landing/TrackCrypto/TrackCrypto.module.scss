@@ -1,0 +1,143 @@
+.trackCrypto {
+  padding: 60px 40px;
+
+  .banner {
+    text-align: center;
+    margin-bottom: 40px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    .coinList {
+      background: var(--primary-color15);
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      min-width: 400px;
+
+      .coinRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 12px 0;
+        border-bottom: 1px solid transparent;
+        position: relative;
+        transition: all 0.3s ease;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        &:hover {
+          background-color: var(--primary-color14);
+          transform: scale(1.1);
+          width: 110%;
+          margin-left: -5%;
+          padding: 16px;
+          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+          border-radius: 8px;
+        }
+
+        &.poppedOut {
+          background-color: var(--primary-color14);
+          transform: scale(1.1);
+          width: 110%;
+          margin-left: -5%;
+          padding: 16px;
+          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+          border-radius: 8px;
+        }
+
+        .coinInfo {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+
+          .coinIcon {
+            width: 32px;
+            height: 32px;
+          }
+
+          .coinName {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--primary-color3);
+          }
+
+          .symbol {
+            font-size: 0.75rem;
+            color: var(--primary-color2);
+          }
+        }
+
+        .rightcoininfo {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          text-align: right;
+
+          .coinPrice {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--primary-color3);
+          }
+
+          .change {
+            font-size: 0.85rem;
+            font-weight: 600;
+          }
+
+          .up {
+            color: #16c784;
+          }
+
+          .down {
+            color: #ea3943;
+          }
+        }
+      }
+    }
+
+    .textBlock {
+      max-width: 750px;
+
+      h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary-color3);
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        color: var(--primary-color3);
+        margin-bottom: 2rem;
+      }
+
+      .cta {
+        padding: 1rem 2rem;
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        background: var(--primary-color12);
+        transition: all 0.3s ease;
+
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 6px 16px rgba(132, 86, 255, 0.4);
+        }
+      }
+    }
+  }
+}

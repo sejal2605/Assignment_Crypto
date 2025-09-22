@@ -1,0 +1,10 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  svg {
+    font-size: 1.1rem;
+    color: var(--primary-color4);
+  }
+}

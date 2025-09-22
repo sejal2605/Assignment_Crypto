@@ -1,0 +1,56 @@
+:root {
+  --primary-color1: #F8F8F8;
+  --primary-color2: #64748B;
+  --primary-color3: #65558F;
+  --primary-color4: #6b4eff;
+  --primary-color5: #FFFFFF;
+  --primary-color6: #f8f9fa;
+  --primary-color7: #222222;
+  --primary-color8: linear-gradient(to bottom, #8456FF 0%, #5C4695 100%);
+  --primary-color9: linear-gradient(to right, #ffffff, #ffffff00);
+  --primary-color10: linear-gradient(to left, #ffffff, #ffffff00);
+  --primary-color11: #65558F40;
+  --primary-color12: linear-gradient(90deg, #a98891 0%, #9d4960 100%);
+  --primary-color13: #E2E8F0;
+  --primary-color14: #f0f0f0;
+  --primary-color15: #FFFFFFCC;
+  --primary-color16: #32444A;
+  --primary-color17: #22C55E;
+}
+
+.dark {
+  --primary-color1: #2C3134;
+  --primary-color2: #BAC4D2;
+  --primary-color3: #F8FAFC;
+  --primary-color4: #9b7bff;
+  --primary-color5: #0f1115;
+  --primary-color6: #16171b;
+  --primary-color7: #f7f7f7;
+  --text-secondary: #bdbdbd;
+  --primary-color9: linear-gradient(to right, #0f1115, #0f111500);
+  --primary-color10: linear-gradient(to left, #0f1115, #0f111500);
+  --primary-color11: #F8FAFC40;
+  --primary-color13: #2C3134;
+  --primary-color14: #475055eb;
+  --primary-color15: #2C3134;
+  --primary-color16: #E5F8FF;
+  --primary-color17: #669B79;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: var(--primary-color5);
+  color: var(--primary-color7);
+}
+
