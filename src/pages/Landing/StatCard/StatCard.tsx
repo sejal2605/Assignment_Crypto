@@ -1,5 +1,5 @@
 // import React from "react";
-import styles from "./StatCard.module.scss";
+import styles from "./Statcard.module.scss";
 import { FiArrowUpRight, FiArrowDownRight } from "react-icons/fi";
 
 interface StatCardProps {
