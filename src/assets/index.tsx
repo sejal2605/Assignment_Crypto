@@ -1,4 +1,4 @@
-import Logo from '../assets/images/Logo.svg';
+import Logo from '../assets/Images/Logo.svg';
 import LightHome from '../assets/images/Lighthomebg.svg';
 import DarkHome from '../assets/images/Darkhomebg.svg';
 import Profile from '../assets/Icons/Profile.svg';
