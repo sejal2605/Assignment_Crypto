@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Hero from "./Hero/Hero";
 import StatCardList from "./StatCard/StatCardList";
 import EMISection from "./EMI/EMISection";

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import styles from "./ThemeToggle.module.scss";
 import { Assets } from "../../assets";

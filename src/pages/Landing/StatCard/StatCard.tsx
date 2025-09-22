@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import styles from "./StatCard.module.scss";
 import { FiArrowUpRight, FiArrowDownRight } from "react-icons/fi";
 

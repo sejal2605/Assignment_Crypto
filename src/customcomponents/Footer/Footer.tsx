@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import styles from "./Footer.module.scss";
 import { Assets } from "../../assets/index";
 import { useTheme } from "../../context/ThemeContext";

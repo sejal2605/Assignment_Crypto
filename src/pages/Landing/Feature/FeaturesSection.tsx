@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Button, Card, Progress, Select } from "antd";
 import { ArrowUpOutlined, ArrowDownOutlined } from "@ant-design/icons";
 import styles from "./FeaturesSection.module.scss";

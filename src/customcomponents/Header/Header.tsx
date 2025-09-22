@@ -6,7 +6,7 @@ import { useTheme } from "../../context/ThemeContext";
 
 const Header: React.FC = () => {
   const { theme } = useTheme();
-  const [openDropdown, setOpenDropdown] = useState(false);
+  // const [openDropdown, setOpenDropdown] = useState(false);
 
   // Dynamic icons according to theme
   const earpieceIcon =
@@ -28,8 +28,6 @@ const Header: React.FC = () => {
           {/* Dropdown for Trade */}
           <div
             className={styles.dropdown}
-            onMouseEnter={() => setOpenDropdown(true)}
-            onMouseLeave={() => setOpenDropdown(false)}
           >
             <button className={styles.dropbtn}>Trade ▾</button>
             {/* Commented out dropdown content */}

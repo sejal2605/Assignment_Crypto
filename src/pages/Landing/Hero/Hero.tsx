@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import styles from "./Hero.module.scss";
 import { Assets } from '../../../assets';
 import { useTheme } from "../../../context/ThemeContext";
