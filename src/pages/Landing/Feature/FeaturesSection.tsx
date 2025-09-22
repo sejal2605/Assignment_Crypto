@@ -1,6 +1,6 @@
 // import React from "react";
-import { Button, Card, Progress, Select } from "antd";
-import { ArrowUpOutlined, ArrowDownOutlined } from "@ant-design/icons";
+import { Button, Card, Progress } from "antd";
+// import { ArrowUpOutlined, ArrowDownOutlined } from "@ant-design/icons";
 import styles from "./FeaturesSection.module.scss";
 import Input from "antd/es/input/Input";
 import { Assets } from '../../../assets/index';
