@@ -37,9 +37,9 @@
         padding: 8px 12px;
         border-radius: 6px;
 
-        &:hover {
-          opacity: 0.9;
-        }
+        // &:hover {
+        //   opacity: 0.9;
+        // }
       }
 
       .allBtn {
@@ -144,10 +144,10 @@
   padding: 4px 16px;
   font-weight: 600;
 
-  &:hover {
-    background-color: #6b46d7;
-    color: #fff !important;
-  }
+  // &:hover {
+  //   background-color: none;
+  //   color: #fff !important;
+  // }
 }
 
 :global(.ant-table) {
