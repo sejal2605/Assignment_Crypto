@@ -1,5 +1,5 @@
 // import React from "react";
-import styles from "./StatCard.module.scss";
+import styles from "./Statcard.module.scss";
 import StatCard from "./StatCard";
 import { Assets } from '../../../assets/index';
 import { useTheme } from "../../../context/ThemeContext";
